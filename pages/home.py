@@ -7,6 +7,12 @@ dash.register_page(__name__, path="/", name="Home")
 # Example project data - replace or extend with real projects
 PROJECTS = [
     {
+        "title": "Multitreading on C++",
+        "summary": "A C++ application that demonstrates the use of multithreading and their sintaxis. I leverage use my real-time bar engine to show how multitreading and showing several concepts",
+        "tags": ["multithreading", "asynchronous programming", "lock free programming"],
+        "link": "/projects/multithreading",
+    },
+    {
         "title": "Bar Generation through Boost::Beast",
         "summary": "A high‑performance C++ application designed for real‑time bar construction from tick data. It uses Boost.Beast to maintain a secure WebSocket connection, ensuring fast and reliable data ingestion. The system also leverages the Parquet library to store output in the Parquet format, enabling efficient processing, compact storage, and easy retrieval for later analysis.",
         "tags": ["networking", "bar construction", "tick data"],

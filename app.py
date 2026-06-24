@@ -3,7 +3,6 @@ from dash import html, dcc, Input, Output, callback
 import dash_mantine_components as dmc
 from flask import Flask
 
-
 app = dash.Dash(
     __name__,
     external_scripts=[
